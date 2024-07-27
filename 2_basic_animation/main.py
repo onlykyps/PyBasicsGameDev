@@ -13,7 +13,7 @@ class GameWindow(arcade.Window):
         self.timer = 0
 
     
-    def on_draww(self):
+    def on_draw(self):
         """ Called  automatically about 60 times a second to draww objects"""
         arcade.start_render()
         
