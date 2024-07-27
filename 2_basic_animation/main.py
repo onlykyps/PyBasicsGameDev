@@ -17,7 +17,7 @@ class GameWindow(arcade.Window):
         """ Called  automatically about 60 times a second to draww objects"""
         arcade.start_render()
         
-        arcade.draw_text(f"{self.timer:.2f}", WIDTH/2, HEIGHT/2, arcade.Color.BLACK, 40)
+        arcade.draw_text(f"{self.timer:.2f}", WIDTH/2, HEIGHT/2, arcade.color.BLACK, 40)
 
     def on_update(self, delta_time):
         """ Called  automatically about 60 times a second to update objects"""
